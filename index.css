@@ -1,0 +1,429 @@
+body{
+    margin:0px ;
+    padding:0px;
+color:#747474;
+font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+   padding:0 180px;
+    height: 80px;
+    width:calc(100% - 360px);
+display:flex;
+flex-direction: row;
+justify-content:space-between;
+position:fixed;
+border: 1px solid gray ;
+background: white;
+       margin: 0;
+       top:0
+}
+
+.brand{
+
+}
+.logo{
+}
+.nav-bar{
+
+}
+.nav-menu{
+
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+
+} 
+.nav-items{
+ 
+  margin-right: 10px; 
+}
+.nav-link{
+    text-decoration-line: none;
+  color: #747474;
+}
+.nav-link:hover{
+    color:#00b39b;
+}
+.nav-link:hover ~ .departement-items,.departement-items:hover{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link-active {
+    color:#00b39b;
+} 
+.departement-items{
+
+    display:none;
+    position: absolute;
+    width:200px ;
+    height:auto ;
+    box-shadow: 0px 4px 8px #aaa;
+    Line-Height:200%;
+     
+}
+.departement-item{
+    list-style-type:none;
+}
+.departement-item-link{
+    text-decoration-line: none;
+
+    color:  #747474;
+}
+.main{
+    margin-top:100px;
+    
+
+}
+   
+.section-healthcare{
+   
+     padding :0 180px;
+    
+
+}
+.healthcare-title{
+
+}
+.healthcare-logo{
+    display:block;
+    margin: auto;
+    
+}
+.healthcare-txt{
+    color:#40E0D0;
+    text-align: center;
+
+}
+.descriptoion-text{
+    color:#808080;
+    justify-content: space-between;
+    
+
+}
+.healthcare-main{
+    display :flex;
+    flex-direction: row ;
+    justify-content: space-between;
+   
+}
+.health-grid{
+
+}
+.health-description{
+
+}
+.descriptoion-text{
+    
+}
+.health-card{
+    margin:20px;
+    border-radius: 10px;
+    height: 500px;
+    overflow: hidden;
+    width: 500px
+}
+.card-patient{
+    background:#00ccb1; 
+
+}.card-doctor{
+    background: #3d83df;
+
+}
+.health-card-title{
+    
+}
+.card-txt{
+    color:white;
+    margin:10px;
+    padding:10px;
+}
+.card-description{
+    color:white;
+    margin:10px;
+    padding:10px;
+
+}
+.card-img-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+}
+.patient-country{}
+
+   
+.select-option{
+    border-radius: 5px;
+    margin:30px;
+    width: 150px;
+    height: 30px;
+    padding-left: 40px;
+
+   }
+   .img
+   {
+       width: 400px;
+       height: 300px;
+   }
+   .option
+{
+
+}
+.card-img{
+    display: block;
+   max-width:50% ; 
+   height: auto;
+
+}
+#img-doc{
+    padding-left: 100px;
+}
+
+.healthcare-campany{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}.healthcare-campany-text{
+    padding-right: 1px;
+    margin :0px;
+    color:#00b39b;
+}
+.text{
+    color: #00b39b;
+    line-height: 150%;
+}
+
+.healthcare-campany-name{
+
+}
+
+   
+.healthcare-campany-list{
+    display: flex;
+    flex-direction:row;
+    width: 80%;
+    padding-left:100px;
+    justify-content: space-between;
+    color: #747474;
+    flex-wrap: wrap;
+    line-height: 200%;
+       
+}
+.healthcare-campany-item{
+    list-style-type: none; 
+    margin-right: 10px;
+   
+    
+}
+.icon{
+    width:30px;
+    height: 20px;
+    color: #747474;
+   
+}
+.icon:hover{
+    color:#00b39b;
+
+}
+.healthcare-campany-link{
+    text-decoration-line: none;
+    color:  #747474;
+    
+
+}
+.healthcare-campany-link:hover{
+    color:#00b39b;
+}
+.section-acheivement{
+    background:  #d7f8f3;
+    display: flex;
+  padding:0 180px;
+   
+
+}
+.acheivement-stat{
+    display: flex;
+    
+    height: 300px;
+    
+}
+.section-acheivement-platform{
+    display: flex;
+    flex-direction: column;
+    
+}
+.section-acheivement-description{
+    width: 50%;
+    padding-right: 20px;
+}
+.section-acheivement-title{
+    color: #00b39b;
+    text-align: center;
+}
+.section-acheivement-txt{
+    color:  #747474;
+    text-align: center;
+    padding-right: 30px;
+}
+.section-acheivement-img{
+    width: 50%;
+    padding-right: 20px;
+}
+.imglogo{ 
+    width:400px;
+    height: 300px;
+overflow: hidden;
+}
+.acheivement-stat-offset{
+    margin-top:50px;
+ 
+   margin-right: 30px;
+   
+}
+
+.acheivement-stat-countries{
+    background: white;
+   margin-top:10px;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   margin-bottom: 10px;
+   padding:10px;
+   color:#00b39b;
+}
+.acheivement-stat-img{
+display: block;
+align-items: center;
+
+} 
+.acheivement-stat-txt{
+    text-align: center;
+    color:#747474;
+}
+.acheivement-stat-title{
+    text-align: center;
+}
+.acheivement-stat-patients{
+    background: white;
+
+}
+
+   
+.acheivement-stat-outset{
+    line-height: 200%;
+    width: 300px;
+    height:200px;
+    
+}
+.acheivement-stat-appointments{
+    background: white;
+    margin-top:10px;
+    width: 200px;
+
+}
+.acheivement-stat-doctors{
+    background: white;
+}
+
+
+.section-destination{
+    background: white;
+    padding:0 180px;
+    
+
+}
+.destination-descrption{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.destination-title{
+    color:#00b39b;
+
+}
+.destination-txt{
+    text-align: center;
+    color:#747474;
+    line-height: 200%;
+
+}
+.destination-cards{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.destination-card{
+    margin:5px;
+}
+
+    
+     
+
+.destination-designation{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+align-items: center;
+
+
+}
+.destination-designation:hover{
+    box-shadow: 0 8px 14px gray;
+
+}
+
+.destination-name{
+
+}
+
+.destination-btn{
+    width: 100px;
+    background:  #3d83df;
+    border: 0;
+    border-radius: 3px;
+    color:white;
+    padding:5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    
+}
+.destination-btn:hover{
+    
+}
+
+
+.footer{
+    display: flex;
+    border-top:1px solid gray;
+    flex-direction: row;
+   align-items: center;
+   flex-wrap: wrap;
+   padding:0 180px;
+} 
+    
+
+.footer-txt{
+    text-align: center;
+    color:#747474;
+}
+.footer-city{
+    text-decoration-line:none; 
+}
+
+
+.cookies{
+    line-height: 200%;
+    
+    
+
+}
+
+    
+
